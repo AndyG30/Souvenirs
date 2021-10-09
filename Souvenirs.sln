@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa de datos", "Capa de datos\Capa de datos.csproj", "{D1A3B2C7-44E3-4D7A-9C33-789553D44616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa logica", "Capa logica\Capa logica.csproj", "{22196946-D76C-4F1C-BCB9-5717CD06C86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "souvenirsApp", "souvenirsApp\souvenirsApp.csproj", "{ED933083-2949-4DB0-A80D-A97419CCF973}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1A3B2C7-44E3-4D7A-9C33-789553D44616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3B2C7-44E3-4D7A-9C33-789553D44616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3B2C7-44E3-4D7A-9C33-789553D44616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3B2C7-44E3-4D7A-9C33-789553D44616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22196946-D76C-4F1C-BCB9-5717CD06C86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22196946-D76C-4F1C-BCB9-5717CD06C86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22196946-D76C-4F1C-BCB9-5717CD06C86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22196946-D76C-4F1C-BCB9-5717CD06C86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED933083-2949-4DB0-A80D-A97419CCF973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED933083-2949-4DB0-A80D-A97419CCF973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED933083-2949-4DB0-A80D-A97419CCF973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED933083-2949-4DB0-A80D-A97419CCF973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
