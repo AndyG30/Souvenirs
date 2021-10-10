@@ -27,8 +27,18 @@ namespace Capa_de_datos
             }
             catch (MySqlException e)
             {
-
-                throw new Exception(e.Number.ToString());
+                    string mensaje = "";
+                    switch (e.Number)
+                    {
+                        case 1042:
+                            mensaje = "La conexion a esa direccion no existe.";
+                            break;
+                        case 0:
+                            mensaje = "No se pudo conectar a la base de datos.";
+                            break;
+                    }
+                    throw new Exception(mensaje); 
+              //  throw new Exception(e.Number.ToString());
             }
         }
 

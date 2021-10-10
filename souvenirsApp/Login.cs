@@ -20,20 +20,25 @@ namespace souvenirsApp
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            var validar = UsuarioController.validarUsuario(txtUser.Text, txtPass.Text);
-            if (validar)
-            {
-                // MessageBox.Show("existe la persona!");
-                mainScreen ms = new mainScreen();
-                ms.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("no existe la persona!");
+            
+                var validar = UsuarioController.validarUsuario(txtUser.Text, txtPass.Text);
+                if (validar)
+                {
+                
+                    mainScreen ms = new mainScreen();
+                    ms.Show();
+                    this.Hide();
+                }
+                else
+                {
+                MessageBox.Show("Usuario y/o Contraseña invalidos!");
                 txtUser.Text = "";
                 txtPass.Text = "";
-            }
+                }  
+
+               
+              
+            
 
 
 
