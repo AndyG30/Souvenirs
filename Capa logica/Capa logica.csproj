@@ -5,4 +5,12 @@
     <RootNamespace>Capa_logica</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capa de datos\Capa de datos.csproj" />
+  </ItemGroup>
+
 </Project>
