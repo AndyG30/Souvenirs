@@ -71,6 +71,7 @@ namespace Capa_de_datos
 
         protected void InicializarConexion()
         {
+
             this.ipDB = "localhost";
             this.UsuarioDB = "root";
             this.NombreDB = "SouvenirsDB";
